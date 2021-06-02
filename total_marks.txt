@@ -1,0 +1,23 @@
+using System;
+
+namespace ConsoleApp9
+{
+    public struct Student
+    {
+        public string Name;
+        public int Rollno;
+        public int Marks;
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Student s;
+            s.Name = "Neha";
+            s.Rollno = 01;
+            s.Marks = 87;
+            Console.WriteLine("Student Name: " + s.Name + "\nRollNo : " + s.Rollno + "\nMarks : " + s.Marks);
+            Console.ReadLine();
+        }
+    }
+}
